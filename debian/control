@@ -1,0 +1,12 @@
+Source: ros-noetic-mobile-catkin-modules-build-development-tools
+Section: misc
+Priority: optional
+Maintainer: Ronaldson Bellande <ronaldsonbellande@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ant, default-jdk, ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-mobile-catkin-modules-build-development-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ant, default-jdk
+Description: Simple tools and catkin modules for rosmobile development.
